@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal-Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo/Logo.png">
+            <p>THE<span class="meal">MEAL</span>DB</p>
+        </div>
+        <div class="title">
+            <button>Home</button>
+            <form id="search-form">
+            <input type="search" name="search" id="search-input" placeholder="Search" required/>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section class="welcome">
+            <div class="bowl1">
+                <img src="Images/meal-icon.png">
+            </div>
+            <div class="select">
+                <h1>Welcome To TheMealDB</h1>
+                <select id="category-select">
+                    <option value="" disabled selected>Select a category</option>
+                    <option value="Beef">Beef</option>
+                    <option value="Chicken">Chicken</option>
+                    <option value="Dessert">Dessert</option>
+                    <option value="Lamb">Lamb</option>
+                    <option value="Miscellaneous">Miscellaneous</option>
+                    <option value="Pasta">Pasta</option>
+                    <option value="Pork">Pork</option>
+                    <option value="Seafood">Seafood</option>
+                    <option value="Side">Side</option>
+                    <option value="Starter">Starter</option>
+                    <option value="Vegan">Vegan</option>
+                    <option value="Vegetarian">Vegetarian</option>
+                    <option value="Breakfast">Breakfast</option>
+                    <option value="Goat">Goat</option>
+                </select>
+            </div>
+            <div class="bowl2">
+                <img src="Images/meal-icon.png">
+            </div>
+        </section>
+        <section id="meal-results"></section>
+        <section class="latest-meals">
+
+        </section>
+        <section class="popular-ingredients"></section>
+        <section class="random-meals"></section>
+        <section class="random-ingredients"></section>
+        <section class="browse-country"></section>
+        <section class="browse-by-name"></section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
